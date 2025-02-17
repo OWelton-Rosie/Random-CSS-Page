@@ -22,7 +22,7 @@
                 clearInterval(intervalId);
             }
             
-            const randomTime = Math.floor(Math.random() * (10000 - 3000 + 1)) + 3000; // Random interval between 3s and 10s
+            const randomTime = Math.floor(Math.random() * (5000 - 3000 + 1)) + 3000; // Random interval between 3s and 10s
             intervalId = setInterval(() => {
                 loadRandomCSS();
                 setRandomInterval();
