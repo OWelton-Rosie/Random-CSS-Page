@@ -1,7 +1,7 @@
  let intervalId;
 
         function loadRandomCSS() {
-            const styles = ["style1.css", "style2.css", "style3.css"];
+            const styles = ["./css/1.css", "./css/2.css", "./css/3.css"];
             const randomStyle = styles[Math.floor(Math.random() * styles.length)];
             
             // Remove existing stylesheet if present
