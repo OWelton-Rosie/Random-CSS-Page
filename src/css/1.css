@@ -1,14 +1,30 @@
 body {
     background-color: lightblue;
     color: navy;
-    font-family: Arial, sans-serif;
-    text-align: center;
+    font-family: 'Arial', sans-serif;
+    text-align: left;
+    padding: 50px;
+    margin: 0;
+    line-height: 1.8;
 }
 
 h1 {
-    color: white;
+    color: darkblue;
+    font-size: 4rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 p {
-    color: white;
+    color: navy;
+    font-size: 1.5rem;
+    font-style: italic;
+    letter-spacing: 0.5px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    border-left: 3px solid darkblue;
+    padding-left: 10px;
+    max-width: 800px;
+    margin: auto;
 }
